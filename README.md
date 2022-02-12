@@ -1,4 +1,4 @@
-# Project 1
+# Lab 1_551
 
 Firts clone repo: 
 `git clone https://github.com/YonGilYu/Lab1_551.git`
