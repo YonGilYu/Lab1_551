@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Add padding to containers */
+    .container {
+      padding: 16px;
+      background-color: white;
+    }
+  </style>
+  </head>
+<body>
+
+
+  <form action="{{ url_for('search')}}" method="post">
+    <div class = "container">
+        <h1>Display a Search Field</h1>
+        <label  for="isbn">Please enter ISBN number or author name or title</label>
+        <input type="text" id="isbn" name="isbn">
+        <button onClick="window.location.href='result';" type="submit">search</button>
+        <p><a href="/">Back</a>.</p>
+    </div>  
+  </form>
+
+</body>
+</html>
